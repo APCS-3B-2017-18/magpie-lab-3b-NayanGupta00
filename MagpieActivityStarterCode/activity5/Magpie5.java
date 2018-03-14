@@ -265,6 +265,8 @@ public class Magpie5
 			"Hmmm.",
 			"Do you really think so?",
 			"You don't say."
+			"Why don't we talk about something else."
+			"Why don't you stick on track."
 	};
 	
 }
