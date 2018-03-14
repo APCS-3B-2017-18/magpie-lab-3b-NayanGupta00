@@ -68,7 +68,7 @@ public class Magpie3
 	 * @return the index of the first occurrence of goal in
 	 *         statement or -1 if it's not found
 	 */
-	private int findKeyword(String statement, String goal,
+	public int findKeyword(String statement, String goal,
 			int startPos)
 	{
 		String phrase = statement.trim();
@@ -132,7 +132,7 @@ public class Magpie3
 	 * @return the index of the first occurrence of goal in
 	 *         statement or -1 if it's not found
 	 */
-	private int findKeyword(String statement, String goal)
+	public int findKeyword(String statement, String goal)
 	{
 		return findKeyword(statement, goal, 0);
 	}
